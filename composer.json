@@ -1,0 +1,20 @@
+{
+    "name": "eos-project/phpclient",
+    "description": "Eos PHP client",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Gotterdemarung",
+            "email": "gotterdemarung@gmail.com"
+        }
+    ],
+    "autoload": {
+      "psr-4": {
+        "Eos\\Client\\": "src/Eos/Client"
+      }
+    },
+    "minimum-stability": "stable",
+    "require": {
+        "psr/log": "^1.0"
+    }
+}
