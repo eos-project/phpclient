@@ -3,7 +3,7 @@ PHP Eos client
 ==============
 
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/eos-project/phpclient/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/eos-project/phpclient/?branch=master)
-
+[![Build Status](https://travis-ci.org/eos-project/phpclient.svg?branch=master)](https://travis-ci.org/eos-project/phpclient)
 
 # Simple static usage
 
