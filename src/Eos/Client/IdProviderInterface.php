@@ -5,7 +5,7 @@ namespace Eos\Client;
 interface IdProviderInterface
 {
     /**
-     * Returns current EosId
+     * Returns current EosId, used to group incoming messages
      *
      * @return string
      */
