@@ -7,7 +7,7 @@ use Psr\Log\LogLevel;
 
 class EosDefaultLogger extends AbstractLogger
 {
-    private static $levels = [
+    private static $levels = array(
         LogLevel::DEBUG => 1,
         LogLevel::INFO => 2,
         LogLevel::NOTICE => 3,
@@ -16,7 +16,7 @@ class EosDefaultLogger extends AbstractLogger
         LogLevel::CRITICAL => 6,
         LogLevel::ALERT => 7,
         LogLevel::EMERGENCY => 8
-    ];
+    );
 
     /**
      * @var EosUdpClient
