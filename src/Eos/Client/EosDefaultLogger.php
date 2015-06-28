@@ -47,6 +47,8 @@ class EosDefaultLogger extends AbstractLogger
 
         if ($threshold !== null && isset(self::$levels[$threshold])) {
             $this->threshold = self::$levels[$threshold];
+        } else {
+            $this->threshold = self::$levels[LogLevel::DEBUG];
         }
     }
 
